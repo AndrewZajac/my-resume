@@ -3,14 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    background-color: rgb(50, 50, 50);
+}
 .container{
     background-color: rgb(50, 50, 50);
     max-width: 1000px;
     margin: 60px auto;
     height: 1250;
-    padding: 20px;
-    box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    padding: 22px;
 }
 .header{
     text-align: center;
@@ -21,7 +22,6 @@
     text-transform: uppercase;
 }
 .header h3{
-    background-color: purple;
     color: white;
     font-size: 15px;
     font-weight: 500;
@@ -30,13 +30,13 @@
     font-size: 20px;
     border-radius: 20px;
 }
-.profile image{
-    width: 200px;
-    height: 200px;
+.profile-image{
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
     overflow: hidden;
     margin: 25px auto;
-    border: 15px groove teal;
+    border: 15px groove white;
 }
 .main{
     display: flex;
@@ -47,15 +47,15 @@
     padding: 30px;
 }
 .left-side p{
-    padding: 5px;
     color: white;
-    margin: 30px 0;
+    margin: 10px 0;
     font-size: 20px;
     border-radius: 20px;
 }
 .left-side h2{
-    color: purple;
-    text-decoration: underline;
+    color: rgba(0, 102, 255, 0.75);
+    padding: 20px 0 0;
+    text-transform: uppercase;
 }
 .left-side ul li{
     color: white;
@@ -68,6 +68,7 @@
 }
 .right-side h2{
     text-decoration: underline;
+    padding: 35px 0 0;
 }
 .right-side h3{
     color: white;
