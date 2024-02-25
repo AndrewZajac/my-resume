@@ -35,7 +35,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     margin: 25px auto;
-    border: 15px groove white;
+    border: 15px solid;
 }
 .main{
     display: flex;
